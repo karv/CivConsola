@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivConsole", "CivConsole\CivConsole.csproj", "{D7B4AB60-2BA5-49DE-AC7B-BFB2D093B0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivLibrary", "civlib\CivLibrary.csproj", "{D0DA2F97-634B-4693-A73B-0C2241BA0C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaExtras", "civlib\ListaExtras\ListaExtras.csproj", "{B9F315AE-47F8-4629-83FC-3B4D70087083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafos", "civlib\Grafos\Grafos.csproj", "{AF2E2C37-9F1D-4D32-AE62-8484B0A9DD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "civlib\Store\Store\Store.csproj", "{B5651422-0901-4E7F-976A-A4F7893267CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2E2C37-9F1D-4D32-AE62-8484B0A9DD50}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF2E2C37-9F1D-4D32-AE62-8484B0A9DD50}.Debug|x86.Build.0 = Debug|Any CPU
+		{AF2E2C37-9F1D-4D32-AE62-8484B0A9DD50}.Release|x86.ActiveCfg = Release|Any CPU
+		{AF2E2C37-9F1D-4D32-AE62-8484B0A9DD50}.Release|x86.Build.0 = Release|Any CPU
+		{B5651422-0901-4E7F-976A-A4F7893267CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5651422-0901-4E7F-976A-A4F7893267CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{B5651422-0901-4E7F-976A-A4F7893267CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{B5651422-0901-4E7F-976A-A4F7893267CA}.Release|x86.Build.0 = Release|Any CPU
+		{B9F315AE-47F8-4629-83FC-3B4D70087083}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9F315AE-47F8-4629-83FC-3B4D70087083}.Debug|x86.Build.0 = Debug|Any CPU
+		{B9F315AE-47F8-4629-83FC-3B4D70087083}.Release|x86.ActiveCfg = Release|Any CPU
+		{B9F315AE-47F8-4629-83FC-3B4D70087083}.Release|x86.Build.0 = Release|Any CPU
+		{D0DA2F97-634B-4693-A73B-0C2241BA0C4C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0DA2F97-634B-4693-A73B-0C2241BA0C4C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0DA2F97-634B-4693-A73B-0C2241BA0C4C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0DA2F97-634B-4693-A73B-0C2241BA0C4C}.Release|x86.Build.0 = Release|Any CPU
+		{D7B4AB60-2BA5-49DE-AC7B-BFB2D093B0C2}.Debug|x86.ActiveCfg = Debug|x86
+		{D7B4AB60-2BA5-49DE-AC7B-BFB2D093B0C2}.Debug|x86.Build.0 = Debug|x86
+		{D7B4AB60-2BA5-49DE-AC7B-BFB2D093B0C2}.Release|x86.ActiveCfg = Release|x86
+		{D7B4AB60-2BA5-49DE-AC7B-BFB2D093B0C2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CivConsole\CivConsole.csproj
+	EndGlobalSection
+EndGlobal

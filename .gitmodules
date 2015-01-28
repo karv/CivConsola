@@ -1,0 +1,3 @@
+[submodule "civlib"]
+	path = civlib
+	url = git@github.com:karv/civlib.git
