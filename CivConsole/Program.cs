@@ -16,6 +16,14 @@ namespace CivConsole
 			g_.CargaData();
 
 			g_.InicializarJuego();
+#if DEBUG
+			CivLibrary.Debug.Debug.CrearArchivoObjetosAbiertos();
+#endif
+
+
+#if HACERARBOL
+			System.Environment.Exit(0);
+#endif
 
 
 			MyCiv = g_.State.Civs[0];
